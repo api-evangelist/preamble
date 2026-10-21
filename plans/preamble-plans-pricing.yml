@@ -1,0 +1,22 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.preamble.com/pricing
+sources:
+- https://www.preamble.com/pricing
+- https://help.preamble.com/billing
+name: Preamble pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Compliance
+  price_text: $0.005 API/ call
+  price: 0.005
+- name: SMB
+  price_text: $50.00 per user / month
+  price: 50.0
+  billing_period: month
+- name: Enterprise
+  price_text: $750,000 perpetual license
+  price: 750000
+docs: https://www.preamble.com/pricing

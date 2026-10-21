@@ -1,0 +1,16 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/preamble/integrations
+- https://n8n.io/integrations/preamble/
+- https://composio.dev/toolkits/preamble
+- https://monid.ai/tools/preamble
+checked:
+- https://composio.dev/toolkits/preamble
+- https://monid.ai/tools/preamble
+- https://n8n.io/integrations/preamble/
+- https://zapier.com/apps/preamble/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

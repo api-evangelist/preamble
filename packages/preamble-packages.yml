@@ -1,0 +1,39 @@
+generated: '2026-10-21'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io)
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (preamble.com,
+  security/preamble-domain-security.yml) or its accepted GitHub org.'
+packages:
+- name: preamble
+  registry: pypi
+  url: https://pypi.org/project/preamble/
+  language: Python
+  official: true
+  version: 0.0.4
+  published: '2023-08-08'
+  evidence: metadata names preamble.com
+- name: preamble
+  registry: npm
+  url: https://www.npmjs.com/package/preamble
+  language: JavaScript
+  official: false
+  version: 1.0.1
+  published: '2025-03-09'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
+- name: preamble
+  registry: rubygems
+  url: https://rubygems.org/gems/preamble
+  language: Ruby
+  official: false
+  version: 0.0.3
+  published: '2014-07-14'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
+- name: preamble
+  registry: crates
+  url: https://crates.io/crates/preamble
+  language: Rust
+  official: false
+  version: 0.1.60
+  published: '2023-11-16'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
